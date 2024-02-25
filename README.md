@@ -1,3 +1,3 @@
 ﻿# AutoDoc
 
-== A python script that convert code into asciiDoc Markdown
+## A python script that convert code into asciiDoc Markdown
