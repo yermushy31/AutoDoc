@@ -1,0 +1,16 @@
+= C File
+
+This Program is using `<stdio.h>` directive: #include
+
+
+This Program is using `GCC diagnostic ignored "-Wformat"` directive: #pragma
+
+
+*This function is the main function of the program*
+
+This Program is using the Function `main` type: int
+
+
+This Program is using the Function `foo` type: void
+
+
