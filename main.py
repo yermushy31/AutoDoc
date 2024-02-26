@@ -89,6 +89,9 @@ def process_c(file_content: str):
                         content = content.split(";")[0]
                         newline = f"This Program is using the Variable {asciidoc['syntax']['monospace'][0]}{content}{asciidoc['syntax']['monospace'][0]} type: {c_type}\n"
                         updated_lines.append(newline + "\n\n")
+                    elif re.search(r'\b{}\s+\w+\s*=\s*'.format(re.escape(c_type)), line):
+                        content = line.split(c_type)[1].strip()
+                        print(content )
                        
               
     delete_all_lines(FilePath + FileName)
